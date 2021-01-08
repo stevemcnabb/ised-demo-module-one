@@ -1,0 +1,7 @@
+{
+    "name": "steve.mcnabb/ised_test_module_1",
+    "description": "A test drupal module",
+    "type": "drupal-module",
+    "license": "GPL-3.0-or-later",
+    "require": {}
+}
