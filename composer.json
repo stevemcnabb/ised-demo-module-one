@@ -2,8 +2,8 @@
     
     "config": {
         "preferred-install": "dist",
-        "github-protocols": ["https","http"],
-    }
+        "github-protocols": ["https","http"]
+    },
 
     "name": "steve.mcnabb/ised_test_module_1",
     "description": "A test drupal module",
