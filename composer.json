@@ -5,10 +5,10 @@
     "license": "GPL-3.0-or-later",
     "require": {},
     "extra": {
-        "installer_types": "[ "ised-drupal-module"]",
-        "installer_paths": "[
-		"data/sites/default/modules/ised": [ "type:ised-drupal-module" ]
-	]",
+        "installer_types": [ "ised-drupal-module" ],
+        "installer_paths": { 
+            "data/sites/default/modules/ised": [ "type:ised-drupal-module" ]
+        }
 	
     }
 }
