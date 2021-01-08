@@ -1,7 +1,14 @@
 {
     "name": "steve.mcnabb/ised_test_module_1",
     "description": "A test drupal module",
-    "type": "drupal-module",
+    "type": "ised-drupal-module",
     "license": "GPL-3.0-or-later",
-    "require": {}
+    "require": {},
+    "extra": {
+        "installer_types": "[ "ised-drupal-module"]",
+        "installer_paths": "[
+		"data/sites/default/modules/ised": [ "type:ised-drupal-module" ]
+	]",
+	
+    }
 }
